@@ -8,6 +8,11 @@ image:
   repository: gcr.io/heptio-images/ks-guestbook-demo
   tag: 0.1
   pullPolicy: IfNotPresent
+  
+image2:
+  repository: nginx
+  tag: 1.20
+  pullPolicy: IfNotPresent
 
 service:
   type: NodePort
