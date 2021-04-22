@@ -11,7 +11,7 @@ image:
   
 image2:
   repository: nginx
-  tag: 1.20
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
